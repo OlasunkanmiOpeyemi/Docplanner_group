@@ -1,0 +1,102 @@
+ *{margin: 0em; padding: 0em; box-sizing: border-box;}
+
+html{font-family:Georgia;}
+
+#span {color:black;}
+/*-----------------------------------------------header----------------------------------------------------------*/
+header{width: 100vw; background-color: white; position: fixed; padding: 0.5em 10em;}
+nav{display: flex; align-items: center; justify-content: space-between;}
+nav>.h1_span{display: inline-flex; align-items: center;}
+nav>.h1_span>a>img{margin: 0.3em;}
+nav>.h1_span>h1>a{text-transform: capitalize; text-decoration: none; color: rgb(49, 168, 156); font-size: 2rem;}
+nav>ul>li{display: inline; padding: 0.5em;}
+nav>ul>li>a{text-decoration: none; text-transform: capitalize; font-size: 1rem; color:black; font-weight: bold;}
+nav>ul>li>a:hover,.active{color: rgb(49, 168, 156);}
+/*-------------------------------------------------header-----------------------------------------------------------*/
+
+/*--------------------------------------------------main--------------------------------------------------------------*/
+.CONTAINER{width: 100vw; padding: 5em 10em; display: grid; grid-column-gap: 30px; grid-row-gap: 10px; background-color: white;}
+.IMG_cnt{grid-column: 1 / 6;display: flex; align-items: center;justify-content: center;padding: 2em 0em;}
+.img {width: 27vw;padding: 0em 10em;}
+.H1_cnt{grid-column: 1 / 6; text-align: center; text-transform: capitalize; color:rgb(49, 168, 156); padding:0.5em 0em 2em 0em;}
+.P1_cnt{grid-column: 1 / 3; text-transform: capitalize; font-size: 1rem; line-height: 25px; color:black;padding: 0.5em 0em 2em 0em;}
+.P2_cnt {grid-column: 3 / 6; text-transform: capitalize; font-size: 1rem; line-height: 25px; color:black;padding: 0.5em 0em 4em 0em;}
+/*-----------------------------------------------------------------------------------------------------------------*/
+.PATIENT{background-color:rgb(66, 221, 206); grid-column: 1 / 2; padding: 2em;  border-radius: 10px; width: 25vw; height: 50vh; text-align:left;}
+.PATIENT>h3{text-transform:lowercase; color: white; font-size: 1.4rem;}
+.PATIENT>p{text-transform:lowercase; font-size: 1.4rem; color: white; padding-top: 0.5em; line-height: 30px;}
+.PATIENT>a{text-transform:lowercase; font-size: 1.4rem; color: white;}
+/*-----------------------------------------------------------------------------------------------------------------*/
+.DOCTOR{grid-column: 2 / 4; padding: 2em; border-radius: 10px; width: 25vw; height: 50vh; background-color: rgb(82, 82, 201);}
+.DOCTOR>h3 {text-transform:lowercase; color: white; font-size: 1.4rem;}
+.DOCTOR>p {text-transform:lowercase; font-size: 1.4rem; color: white; padding-top: 0.5em; line-height: 30px;}
+.DOCTOR>a {text-transform:lowercase; font-size: 1.4rem; color: white;}
+/*------------------------------------------------------------------------------------------------------------------*/
+.CLINIC{grid-column: 4 / 6; padding: 2em; border-radius: 10px; width: 25vw; height: 50vh;background-color:rgb(2, 2, 37);}
+.CLINIC>h3 {text-transform:lowercase; color: white; font-size: 1.4rem;}
+.CLINIC>p {text-transform:lowercase; font-size: 1.4rem; color: white; padding-top: 0.5em; line-height: 30px;}
+.CLINIC>a {text-transform:lowercase; font-size: 1.4rem; color: white;}
+/*------------------------------------------------------------------------------------------------------------------*/
+.we_are{grid-column: 1 / 2;}
+.we_are>p{text-transform: capitalize; font-size: 1.5rem; padding: 2em 0em; font-weight:500; color:rgb(66, 221, 206);}
+/*------------------------------------------------------------------------------------------------------------------*/
+.znzny{grid-column: 2 / 6; display: grid; grid-template-columns:1fr 1fr 1fr 1fr ; grid-column-gap: 1em; padding: 3em 0em 1em 0em; grid-row-gap: 2em;}
+.znzny>span{display: inline-flex; align-items: center;}
+.znzny>span>img{padding: 0.2em;}
+.znzny>span>a{text-decoration: none; text-transform: capitalize; font-size: 1.2rem;font-weight:550;color: black;}
+/*---------------------------------------------------------------------------------------------------------------------*/
+.CONTAINER2{width: 100vw; height: 100vh;background-color: rgba(66, 221, 206, 0.247);}
+.CONTAINER2>.CONT2{display: grid;grid-template-columns:1fr 1fr ;grid-column-gap: 100px; padding: 0em 10em;}
+.CONTAINER2>.CONT2>.cont{padding-top: 5em;}
+.CONTAINER2>.CONT2>.cont>h3{text-transform: capitalize;font-size:1.8rem;line-height: 1.5em;color: rgb(49, 168, 156);}
+.CONTAINER2>.CONT2>.cont>p{text-transform: capitalize;font-size: 1rem;line-height: 1.5em;color:black;}
+.CONTAINER2>.CONT2>.cont>.imgg{background-image: url("img/logo.png");width: 28vw;height: 55vh;}
+/*---------------------------------------------------------------------------------------------------------------------*/
+.CONTAINER2>.CONT2>.cont1>.all{width: 18vw; height: 40vh;background-color: white;border-radius: 5px;}
+.CONTAINER2>.CONT2>.cont1{display: grid;grid-template-columns: 1fr 1fr;grid-column-gap: 20px;grid-row-gap: 20px;margin-top: 3em;}
+/*----------------------------------------------------------------------------------------------------------------------*/
+.CONTAINER2>.CONT2>.cont1>.all:nth-child(1){display: flex;flex-direction:column; text-align: center;align-items: center;justify-content: center;}
+.CONTAINER2>.CONT2>.cont1>.all:nth-child(1)>h4{text-transform: capitalize;font-size: 1.3rem;color: rgb(49, 168, 156);}
+.CONTAINER2>.CONT2>.cont1>.all:nth-child(1)>p{text-transform: capitalize;font-size: 0.9rem;color:black;line-height: 1.3em;}
+/*----------------------------------------------------------------------------------------------------------------------*/
+.CONTAINER2>.CONT2>.cont1>.all:nth-child(2){display: flex;flex-direction: column;text-align: center;align-items: center;
+justify-content: center;}
+.CONTAINER2>.CONT2>.cont1>.all:nth-child(2)>h4 {text-transform: capitalize;font-size: 1.3rem;color: rgb(49, 168, 156);}
+.CONTAINER2>.CONT2>.cont1>.all:nth-child(2)>p {text-transform: capitalize;font-size: 0.9rem;color:black;}
+/*----------------------------------------------------------------------------------------------------------------------*/
+.CONTAINER2>.CONT2>.cont1>.all:nth-child(3){display: flex;flex-direction: column;text-align: center;align-items: center;
+justify-content: center;}
+.CONTAINER2>.CONT2>.cont1>.all:nth-child(3)>h4 {text-transform: capitalize; font-size: 1.3rem; color: rgb(49, 168, 156);}
+.CONTAINER2>.CONT2>.cont1>.all:nth-child(3)>p {text-transform: capitalize;font-size: 0.9rem;color:black;}
+/*----------------------------------------------------------------------------------------------------------------------*/
+.CONTAINER2>.CONT2>.cont1>.all:nth-child(4){display: flex;flex-direction: column;text-align: center;align-items: center;
+justify-content: center;}
+.CONTAINER2>.CONT2>.cont1>.all:nth-child(4)>h4 {text-transform: capitalize;font-size: 1.3rem;color: rgb(49, 168, 156);}
+.CONTAINER2>.CONT2>.cont1>.all:nth-child(4)>p {text-transform: capitalize;font-size: 0.9rem;color:black;}
+/*----------------------------------------------------------------------------------------------------------------------*/
+.improve{display: flex;flex-direction: column;text-align: center; align-items: center;justify-content: center;padding: 5em;}
+.improve>.p1{text-transform: capitalize;font-size: 1.8rem;color:rgb(49, 168, 156);}
+.improve>.p2{text-transform: capitalize;font-size: 1rem;color:black;line-height: 1.5em;}
+/*----------------------------------------------------------------------------------------------------------------------*/
+.img{display: grid;grid-template-columns: 1fr 1fr 1fr;grid-column-gap: 50px;grid-row-gap: 40px;}
+.img>div>img{border-radius: 8px;}
+.img>div{width: 22.9vw;border-radius: 8px;transition:0.5s;border: 0.1px solid rgba(0, 0, 0, 0.075);}
+.img>div:hover{box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.37);cursor: pointer;}
+.img>div>div{display: flex;align-items: center;justify-content:space-between;padding: 1em;background-color: white;}
+.img>div>div>p{text-transform: capitalize;font-size: 1.2em;color:black;}
+.img>div>div>a{text-decoration: none;text-transform:uppercase;font-size: 0.8rem;background-color: rgb(96, 96, 250);padding: 0.5em;border-radius: 8px;color: white;}
+.img>div>div>a:hover{background-color: blue;transition: 0.5s;}
+/*---------------------------------------------------------------------------------------------------------------------*/
+.div{text-align: center;align-items: center;justify-content: center;padding: 6em;}
+.div>p{text-transform:capitalize;font-size: 1.5rem;color:black;}
+.div>a{text-decoration: none;text-transform:uppercase;font-size: 1rem;background-color:rgb(96, 96, 250);padding: 0.5em;border-radius: 8px;color: white;}
+.div>a:hover{background-color: blue;transition: 0.5s;}
+/* --------------------------------------------------main--------------------------------------------------------------*/
+
+/*----------------------------------------------------footer-----------------------------------------------------------*/
+.fdiv{text-align: center;align-items: center;justify-content: center;padding: 1em;}
+.fdiv>p{text-transform: capitalize;font-size: 0.7rem;color:black;}
+span{color: blue;}
+/*----------------------------------------------------footer-----------------------------------------------------------*/
+
+  
