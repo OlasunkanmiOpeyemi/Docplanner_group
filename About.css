@@ -1,11 +1,19 @@
- *{margin: 0em; padding: 0em; box-sizing: border-box;}
+ *{margin: 0em; 
+  padding: 0em; 
+  box-sizing: border-box;}
 
 html{font-family:Georgia;}
 
 #span {color:black;}
 /*-----------------------------------------------header----------------------------------------------------------*/
-header{width: 100vw; background-color: white; position: fixed; padding: 0.5em 10em;}
-nav{display: flex; align-items: center; justify-content: space-between;}
+header{width: 100vw; 
+  background-color: white; 
+  position: fixed; 
+  padding: 0.5em 10em;
+}
+nav{display: flex;
+   align-items: center; 
+   justify-content: space-between;}
 nav>.h1_span{display: inline-flex; align-items: center;}
 nav>.h1_span>a>img{margin: 0.3em;}
 nav>.h1_span>h1>a{text-transform: capitalize; text-decoration: none; color: rgb(49, 168, 156); font-size: 2rem;}
