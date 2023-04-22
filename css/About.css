@@ -302,7 +302,7 @@ li:hover .submenu>ul>li>a:hover{background-color: rgba(0, 0, 0, 0.096);
  }
 
  .CONTAINER2>.CONT2>.cont>.imgg {
-   background-image: url("img/logo.png");
+   background-image: url("../img/logo.png");
    width: 28vw;
    height: 55vh;
  }

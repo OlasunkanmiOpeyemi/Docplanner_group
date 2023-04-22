@@ -101,7 +101,7 @@ li:hover .submenu>ul>li>a:hover {
   display: flex;
   flex-direction: column;
   padding: 10em 13em;
-  background-image: url("img/bg-top.jpg");
+  background-image: url("../img/bg-top.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -267,28 +267,28 @@ li:hover .submenu>ul>li>a:hover {
 .tog>.A {
   grid-column: 1 / 2;
   width: 36vw;
-  background-image: url("img/video-en.png");
+  background-image: url("../img/video-en.png");
 }
 
 .tog>.B {
-  background-image: url("img/fb1.jpg");
+  background-image: url("../img/fb1.jpg");
 }
 
 .tog>.C {
   grid-row: 2 / 5;
   grid-column: 3 / 4;
   height: 75vh;
-  background-image: url("img/fb2.jpg");
+  background-image: url("../img/fb2.jpg");
 }
 
 .tog>.D {
   grid-column: 1 / 2;
   width: 36vw;
-  background-image: url("img/bg-top.jpg");
+  background-image: url("../img/bg-top.jpg");
 }
 
 .tog>.E {
-  background-image: url("img/fb3.jpg");
+  background-image: url("../img/fb3.jpg");
 }
 
 /*---------------------------------------------------------------------------------------------------------------------*/
@@ -365,7 +365,7 @@ li:hover .submenu>ul>li>a:hover {
 .play {
   width: 100vw;
   height: 100vh;
-  background-image: url("img/bg-top.jpg");
+  background-image: url("../img/bg-top.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }

@@ -89,6 +89,7 @@ li:hover .submenu>ul>li {
    color: rgb(49, 168, 156);
    padding: 0.5em 2em;
  }
+
 /*-------------------------------------------------header-----------------------------------------------------------*/
 
 /*---------------------------------------------------main-----------------------------------------------------------*/
@@ -98,14 +99,14 @@ li:hover .submenu>ul>li {
   display: flex;
   flex-direction: column;
   padding: 13em 13em;
-  background-image: url("img/bg-top.jpg");
+  background-image: url("../img/bg-top.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .div>div {
   background-color: white;
-  width: 30vw;
+  width: 35vw;
   height: 100vh;
   padding: 2em;
   display: flex;
@@ -215,7 +216,7 @@ li:hover .submenu>ul>li {
 }
 
 .people>div>.img {
-  background-image: url("img/testimonial-1.jpg");
+  background-image: url("../img/testimonial-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 35vw;
@@ -223,7 +224,7 @@ li:hover .submenu>ul>li {
 }
 
 .people>div>.imgg {
-  background-image: url("img/testimonial-2.jpg");
+  background-image: url("../img/testimonial-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 35vw;
